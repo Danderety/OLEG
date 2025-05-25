@@ -1,0 +1,42 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Olegk",
+            "age": 25
+        },
+        {
+            "id": 2,
+            "name": "ABRAKADA+BRAk",
+            "age": 200004
+        },
+        {
+            "id": 3,
+            "name": "Olegk",
+            "age": 10007
+        },
+        {
+            "id": 4,
+            "name": "Sasi",
+            "age": 9999
+        }
+    ],
+    "megabox": [
+        {
+            "id": 1,
+            "name": "megabox"
+        },
+        {
+            "id": 2,
+            "name": "smallbox"
+        },
+        {
+            "id": 3,
+            "name": "bigbox"
+        },
+        {
+            "id": 4,
+            "name": "srednibox"
+        }
+    ]
+}

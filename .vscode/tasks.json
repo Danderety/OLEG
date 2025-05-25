@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Собрать все cpp файлы",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${workspaceFolder}/*.cpp",  // Убедись, что путь правильный
+                "-o",
+                "${workspaceFolder}/program.exe",  // Путь к выходному файлу
+                "-Wall",
+                "-Wextra",
+                "-g",
+                "-fexec-charset=UTF-8"  // Обработка UTF-8
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Компиляция всех .cpp файлов в одну программу"
+        },
+        {
+            "label": "Запустить собранную программу",
+            "type": "shell",
+            "command": "${workspaceFolder}/program.exe",  // Путь к собранной программе
+            "group": "test",
+            "dependsOn": "Собрать все cpp файлы",
+            "problemMatcher": []
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe сборка активного файла",
+            "command": "C:/Users/Kirill/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:/Users/Kirill/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ]
+}

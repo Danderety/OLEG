@@ -1,0 +1,6 @@
+{
+  "transactions": [
+    {"product": "A", "amount": 100},
+    {"product": "B", "amount": 200}
+  ]
+}

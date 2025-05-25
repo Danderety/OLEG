@@ -1,0 +1,24 @@
+{
+    "megabox": [
+        {
+            "id": 1,
+            "name": "megabox"
+           
+        },
+        {
+            "id": 2,
+            "name": "smallbox"
+            
+        },
+        {
+            "id": 3,
+            "name": "bigbox"
+            
+        },
+        {
+            "id": 4,
+            "name": "srednibox"
+            
+        }
+    ]
+}

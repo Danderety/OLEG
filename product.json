@@ -1,0 +1,34 @@
+{
+    "tovari": [
+        {
+            "id": 1,
+            "name": "prezik",
+            "price": 1100.0
+        },
+        {
+            "id": 2,
+            "name": "prezik x",
+            "price": 1100.0
+        },
+        {
+            "id": 3,
+            "name": "prezik m",
+            "price": 1100.0
+        },
+        {
+            "id": 4,
+            "name": "prezik l",
+            "price": 1100.0
+        },
+        {
+            "id": 5,
+            "name": "prezik xl",
+            "price": 1100.0
+        },
+        {
+            "id": 6,
+            "name": "prezik xxl",
+            "price": 1100.0
+        }
+    ]
+}

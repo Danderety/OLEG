@@ -1,0 +1,11 @@
+{
+  "cities": [
+    {"name": "Moscow", "temp": -5, "conditions": "snow"},
+    {"name": "Dubai", "temp": 35, "conditions": "sunny"},
+    {"name": "Sankt-Piternurg", "temp": 18, "conditions": "rainy"},
+    {"name": "Sergiev-Posad", "temp": 31, "conditions": "snowy"},
+    {"name": "Kiev", "temp": 1000, "conditions": "halacost"}
+
+
+  ]
+}
