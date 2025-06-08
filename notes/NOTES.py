@@ -20,7 +20,7 @@ DB_FILE = "notes.db"
 ATTACHMENTS_DIR = "attachments"
 CONFIG_FILE = "config.ini"
 PASSWORD_FILE = "password.ini"  # Отдельный файл для хранения пароля
-SECRET_KEY = "mysecretkey123"  # Секретный ключ для сброса пароля
+SECRET_KEY = "18.33"  # Секретный ключ для сброса пароля
 os.makedirs(ATTACHMENTS_DIR, exist_ok=True)
 
 class PasswordManager:
@@ -73,7 +73,7 @@ class PasswordDialog(QDialog):
             "login": "Введите пароль"
         }
         self.setWindowTitle(titles.get(mode, "Введите пароль"))
-        self.setFixedSize(350, 200 if mode == "reset" else 180)
+        self.setFixedSize(500, 350 if mode == "reset" else 180)
         self.setup_ui()
         self.apply_theme()
 
@@ -122,7 +122,12 @@ class PasswordDialog(QDialog):
         theme_styles = {
             "dark": """
                 QDialog { background-color: #1e1e1e; color: #f0f0f0; }
-                QLineEdit, QPushButton, QLabel {
+                QLineEdit {
+                    background-color: #2b2b2b; color: #f0f0f0;
+                    border: 1px solid #3a3a3a; border-radius: 6px; padding: 4px;
+              
+                }
+                QPushButton, QLabel {
                     background-color: #2b2b2b; color: #f0f0f0;
                     border: 1px solid #3a3a3a; border-radius: 6px; padding: 4px;
                 }
