@@ -2,6 +2,8 @@
   "people": [
     {"name": "Alice", "salary": 80000},
     {"name": "Bob", "salary": 95000}
+
+
     
   ]
 }
